@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интересы Будущего | Тест</title>
+    <link rel="stylesheet" href="style-test.css">
+</head>
+<body>
+  
+  <div class="container">
+    <div class="top-block">
+      <img src="imgs/bg.png" class="bg">
+      <h1 id="h1">Какие школьные предметы тебе нравятся больше всего?</h1>
+      <div class="main-container">
+        <div class="container-quests" id="container-quests">
+            <button onclick="from_first(this)" class="button-col" id="btn-1">Математика</button>
+            <button onclick="from_first(this)" class="button-col" id="btn-2">ИЗО / Музыка</button>
+            <button onclick="from_first(this)" class="button-col" id="btn-3">Литература</button>
+            <button onclick="from_first(this)" class="button-col" id="btn-4">Информатика</button>
+            <textarea id="textArea" style="display: none;"></textarea>
+            <button onclick="from_first(this)" class="button-col" style="color: #d4c066; font-weight: bold;">Пропустить</button>
+        </div>
+        <div class="next">
+          <button onclick="go_next()" class="button-next" style="color: #d4c066; font-weight: bold;"><img src="imgs/arrow.png"></button>
+        </div>
+      </div>
+      
+
+      <!--<option></option>
+      <option>Экономика</option>
+      <option>Медицина</option>
+      <option>Дизайн</option>-->
+
+        
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
