@@ -1,0 +1,99 @@
+body { background-image: url("imgs/bg-ownPage.png"); 
+    background-size: 100% 100%; /* растягивает по ширине и высоте */ 
+    background-position: center; 
+    width: 100%; 
+    height: 100vh; 
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Segoe UI', sans-serif; 
+}
+.header-src {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: center;
+}
+.header-src button {
+    margin-right: 10%;
+    font-family: sans-serif;
+    color: #333;
+    font-size: 40px;
+    border: none;
+    padding: 30px;
+    background-color: #B3E5FC;
+    border-radius: 30px;
+}
+.header-src button:hover {
+    cursor: pointer;
+    background-color: #81D4FA;
+}
+.about-section {
+  width: 100%;
+  margin: 60px auto;
+  padding: 40px;
+  border-radius: 12px;
+  margin-left: 50px;
+  margin-top: 0;
+  padding-top: 0;
+}
+.about-section h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: #333;
+  margin-top: 10px;
+  
+}
+.about-section p {
+  font-size: 30px;
+  line-height: 1.6;
+  color: #444;
+}
+.contact-info p {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.contact-info a {
+  color: #0077cc;
+  text-decoration: none;
+}
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+img {
+    width:450px;
+    height: 700px;
+}
+.image {
+    width: 50%;
+    margin-top: 0;
+    height: auto;
+}
+.main-button {
+  border: none;
+  position: relative;
+  background-color: #B3E5FC;
+  border-radius: 30px;
+  font-size: 40px;
+  color: #333;
+  padding: 30px;
+  cursor: pointer;
+  box-shadow: inset 0 -7px 0 #0077cc;
+}
+h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #333;
+    margin-top: 5px;
+}
+.result {
+  padding-left: 25px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: inset 7px 0 0 #0077cc; /* тень внутри слева */
+  background-color:#B3E5FC;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
